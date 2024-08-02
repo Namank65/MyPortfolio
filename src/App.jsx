@@ -1,17 +1,19 @@
 import Header from "./components/Header";
 import { IconContext } from "react-icons/lib";
 import Hero from "./components/Hero";
-import { Link } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <IconContext.Provider value={{ color: "white", size: "30px" }}>
+        <div className="flex flex-col h-screen justify-between">
         <Header />
-        {/* <Link to={"https://github.com/"}>aoifhaiofhiasifocnhas</Link> */}
-        <div>
         <Hero/>
+        <div>
+        <button className="text-white">Latest Works</button>
+       </div>
         </div>
+        
       </IconContext.Provider>
     </>
   );
