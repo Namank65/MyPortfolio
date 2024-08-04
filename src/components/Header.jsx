@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/logo3.png";
+import logo from "../assets/Logo4.png";
 import { FaPhone } from "react-icons/fa";
 
 const Header = () => {
   return (
     <nav className="flex justify-between max-w-screen-2xl mx-auto w-full">
       <div>
-        <img src={logo} alt="logo" className="w-48" />
+        <img src={logo} alt="logo" className="w-36 m-5" />
       </div>
       <div >
         <li className="mr-8 mt-4 ">
