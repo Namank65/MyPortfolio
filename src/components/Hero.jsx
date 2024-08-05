@@ -9,9 +9,11 @@ import MainLogo from "../assets/MainLogo5.png";
 const Hero = () => {
   return (
     <div className="flex items-center">
-      <div className="max-w-screen-2xl w-full mx-auto">
-        <h1 className="text-white font-bold text-6xl font-['Sparten']">Souamya</h1>
-        <img src={MainLogo} alt="mainlogo" />
+      <div className="max-w-screen-2xl w-full mx-auto text-white">
+        <h1 className=" font-bold text-6xl font-['Sparten']">Sou<span className="text-[#8c52ff]">a</span>mya</h1>
+        <p className="italic" >MERN <span className="text-[#8c52ff]">Stack</span> Developer</p>
+        <button className="bg-[#8c52ff] hover:bg-[#6637c5] py-2 px-4 font-extrabold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671]">About Me</button>
+        <img src={MainLogo} alt="mainlogo"/>
       </div>
       <ul className="space-x-14 mr-8">
         <a href="https://github.com/Namank65">
