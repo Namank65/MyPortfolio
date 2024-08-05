@@ -17,16 +17,16 @@ const Hero = () => {
         <a href="https://github.com/Namank65">
           <FaGithub className="hover:bg-[#8c52ff] border-black rounded-2xl hover:scale-125 " />
         </a>
-        <a href="https://github.com/Namank65">
+        <a href="https://x.com/NamanKu39911889">
           <BsTwitterX className="hover:bg-[#8c52ff] border-black rounded-xl hover:scale-125 cursor-pointer" />
         </a>
-        <a href="https://github.com/Namank65">
+        <a href="https://www.linkedin.com/in/souamya/">
           <FaLinkedin className="hover:bg-[#8c52ff] border-black rounded-xl hover:scale-125 cursor-pointer" />
         </a>
-        <a href="https://github.com/Namank65">
+        <a href="https://mail.google.com/mail/u/0/#inbox">
           <SiGmail className="hover:bg-[#8c52ff] border-black rounded-xl hover:scale-125 cursor-pointer" />
         </a>
-        <a href="https://github.com/Namank65">
+        <a href="https://www.instagram.com/developer_naman/">
           <GrInstagram className="hover:bg-[#8c52ff] border-black rounded-xl hover:scale-125 cursor-pointer" />
         </a>
       </ul>
