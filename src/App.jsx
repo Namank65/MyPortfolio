@@ -9,8 +9,8 @@ const App = () => {
         <div className="flex flex-col h-screen justify-between">
           <Header />
           <Hero />
-          <div>
-            <button className="text-white">Latest Works</button>
+          <div className="flex justify-center">
+            <button className="text-white py-2 px-4 font-extrabold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671]">Latest Works</button>
           </div>
         </div>
       </IconContext.Provider>

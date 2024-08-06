@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <nav className="flex justify-between max-w-screen-2xl mx-auto w-full">
+    <nav className="flex justify-between max-w-screen-2xl mx-auto w-[95%]">
       <div>
         <img src={logo} alt="logo" className="w-36 m-5" />
       </div>
