@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <div >
         <li className="mr-8 mt-4 ">
-          <FaPhone className="hover:bg-[#8c52ff] hover:scale-125 border-black rounded-2xl cursor-pointer" />
+          <FaPhone className="hover:bg-[#8c52ff] hover:scale-125 ease-in-out duration-150 border-black rounded-2xl cursor-pointer" />
         </li>
       </div>
     </nav>
