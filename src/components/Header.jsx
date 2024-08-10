@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <nav className="flex justify-between max-w-screen-2xl mx-auto w-[95%]">
       <div>
-        <img src={logo} alt="logo" className="w-36 m-5" />
+        <img src={logo} alt="logo" className="w-36 m-5 absolute" />
       </div>
-      <div >
-        <li className="mr-8 mt-4 ">
-          <FaPhone className="hover:bg-[#8c52ff] hover:scale-125 ease-in-out duration-150 border-black rounded-2xl cursor-pointer" />
-        </li>
+      <div className="space-x-14 mt-11 mr-0 sm:mr-14 relative" >
+        <a >
+          <FaPhone className="hover:bg-[#8c52ff] hover:scale-125 ease-in-out duration-150 absolute border-black rounded-2xl cursor-pointer" />
+        </a>
       </div>
     </nav>
   );
