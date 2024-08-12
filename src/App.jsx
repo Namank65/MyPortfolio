@@ -9,7 +9,7 @@ const App = () => {
     <>
       <ParticlesComponent />
       <IconContext.Provider value={{ color: "white", size: "30px" }}>
-        <div className="flex flex-col h-[88vh] justify-between">
+        <div className="flex flex-col h-[80vh] sm:h-[88vh] justify-between">
           <Header />
           <Hero />
           <div className="flex justify-center text-white ">
