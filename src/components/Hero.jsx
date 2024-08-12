@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="relative left-6 sm:left-20 w-1/2 ">
         <h1 className=" font-bold text-5xl sm:text-7xl md:text-[11rem] ">Sou<span className="text-[#8c52ff]">a</span>mya</h1>
         <p className="italic my-5 mb-9 text-xs sm:text-xl md:text-3xl " >MERN <span className="text-[#8c52ff]">Stack</span> Developer</p>
-        <button className=" flex py-1 sm:py-4 px-4 sm:px-16 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:from-[#7641de] hover:scale-110 duration-150 group">About Me <FaArrowRightLong className=" ml-[5rem] lg:ml-32 absolute group-hover:-right-8 ease-in-out duration-150"/></button>
+        <button className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-4 px-4 sm:px-16 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:from-[#7641de] hover:scale-110 duration-150 group">About Me <FaArrowRightLong className=" ml-[5rem] lg:ml-32 absolute group-hover:-right-8 ease-in-out duration-150"/></button>
         </div>
         
       </div >
