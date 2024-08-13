@@ -10,30 +10,32 @@ import MainLogo from "../assets/MainLogo5.png";
 const Hero = () => {
   return (
     <div className="flex items-center">
-      <div className="max-w-screen-2xl w-full mx-auto text-white">
-        <img className="absolute w-36 md:w-72 -translate-y-20 sm:-translate-y-20 translate-x-[70%] sm:translate-x-[240%] " src={MainLogo} alt="mainlogo"/>
+      <div className="max-w-screen-2xl w-[70%] mx-auto text-white">
+        <div>
+        <img className="absolute w-36 md:w-72 left-[26%] sm:left-[50%] -translate-y-20" src={MainLogo} alt="mainlogo"/>
+        </div>
         <div className="relative left-6 sm:left-20 w-1/2 ">
         <h1 className=" font-bold text-5xl sm:text-7xl md:text-[11rem] ">Sou<span className="text-[#8c52ff]">a</span>mya</h1>
-        <p className="italic my-5 mb-9 text-xs sm:text-xl md:text-3xl " >MERN <span className="text-[#8c52ff]">Stack</span> Developer</p>
-        <button className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-4 px-4 sm:px-16 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:from-[#7641de] hover:scale-110 duration-150 group">About Me <FaArrowRightLong className=" ml-[5rem] lg:ml-32 absolute group-hover:-right-8 ease-in-out duration-150"/></button>
+        <p className="italic my-5 mb-9 text-xs sm:text-xl md:text-2xl " >MERN <span className="text-[#8c52ff]">Stack</span> Developer</p>
+        <button className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-2 px-2 sm:px-11 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:scale-110 duration-150 group">About Me <FaArrowRightLong className=" text-white size-6 ml-[5rem] lg:ml-28 absolute group-hover:-right-8 ease-in-out duration-150"/></button>
         </div>
         
       </div >
-      <ul className="space-x-14 mr-0 sm:mr-8 relative">
+      <ul className="space-x-9 mr-0 sm:mr-8 relative">
         <a href="https://github.com/Namank65">
-          <FaGithub className="hover:bg-[#8c52ff] ease-in-out duration-150 border-black rounded-2xl hover:scale-125 " />
+          <FaGithub className="hover:text-[#8c52ff] size-5 sm:size-7 text-white ease-in-out duration-150  hover:scale-125 " />
         </a>
         <a href="https://x.com/NamanKu39911889">
-          <BsTwitterX className="hover:bg-[#8c52ff] ease-in-out duration-150 border-black rounded-xl hover:scale-125 cursor-pointer" />
+          <BsTwitterX className="hover:text-[#8c52ff] size-5 sm:size-7 text-white ease-in-out duration-150  hover:scale-125 cursor-pointer" />
         </a>
         <a href="https://www.linkedin.com/in/souamya/">
-          <FaLinkedin className="hover:bg-[#8c52ff] ease-in-out duration-150 border-black rounded-xl hover:scale-125 cursor-pointer" />
+          <FaLinkedin className="hover:text-[#8c52ff] size-5 sm:size-7 text-white ease-in-out duration-150  hover:scale-125 cursor-pointer" />
         </a>
         <a href="https://mail.google.com/mail/u/0/#inbox">
-          <SiGmail className="hover:bg-[#8c52ff] ease-in-out duration-150 border-black rounded-xl hover:scale-125 cursor-pointer" />
+          <SiGmail className="hover:text-[#8c52ff] size-5 sm:size-7 text-white ease-in-out duration-150 hover:scale-125 cursor-pointer" />
         </a>
         <a href="https://www.instagram.com/developer_naman/">
-          <GrInstagram className="hover:bg-[#8c52ff] ease-in-out duration-150 border-black rounded-xl hover:scale-125 cursor-pointer" />
+          <GrInstagram className="hover:text-[#8c52ff] size-5 sm:size-7 text-white ease-in-out duration-150  hover:scale-125 cursor-pointer" />
         </a>
       </ul>
     </div>

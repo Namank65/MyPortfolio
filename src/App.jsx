@@ -8,18 +8,16 @@ const App = () => {
   return (
     <>
       <ParticlesComponent />
-      <IconContext.Provider value={{ color: "white", size: "30px" }}>
         <div className="flex flex-col h-[80vh] sm:h-[88vh] justify-between">
           <Header />
           <Hero />
           <div className="flex justify-center text-white ">
-            <button className="py-1 absolute sm:py-2 px-2 sm:px-8 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:from-[#7641de] hover:scale-110 duration-150 group">
+            <button className="py-1 absolute sm:py-2 px-2 sm:px-8 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671]  hover:scale-110 duration-150 group">
               Latest Works{" "}
-              <FaArrowDownLong className=" ml-9 sm:ml-[5rem] lg:ml-9 absolute group-hover:-bottom-8 ease-in-out duration-150" />
+              <FaArrowDownLong className=" text-white size-5  ml-9 sm:ml-[5rem] lg:ml-[2.35rem] absolute group-hover:-bottom-8 ease-in-out duration-150 mt-2 sm:mt-4" />
             </button>
           </div>
         </div>
-      </IconContext.Provider>
     </>
   );
 };
