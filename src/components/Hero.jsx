@@ -7,12 +7,12 @@ import { FaGithub } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import MainLogo from "../assets/MainLogo5.png";
 import AboutMePop from "./AboutMePop";
+import LatestWorks from "./LatestWorks";
 
 const Hero = () => {
   const [aboutMe, setAboutMe] = useState(false);
   return (
     <div className="flex items-center">
-      {/* {aboutMe && (<AboutMePop/>)} */}
       <div className="max-w-screen-2xl w-[70%] mx-auto text-white">
         <div>
         <img className="opacity-55 absolute w-36 md:w-72 left-[26%] sm:left-[50%] -translate-y-20" src={MainLogo} alt="mainlogo"/>
