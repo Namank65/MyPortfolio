@@ -1,10 +1,11 @@
 import React from "react";
+import { RxCross2 } from "react-icons/rx";
 
-const AboutMePop = () => {
+const AboutMePop = ({state}) => {
   return (
     <div className="flex w-[90%] h-[90%] bg-slate-900 rounded-lg text-white  absolute left-[5%] bottom-[5%]">
-      <div>
-        <div>
+      <div className="flex flex-col">
+        <div className="w-48 bg-red-600 h-80">
           <h1>About Me</h1>
           <p>
             I help business owners and busy web developers to design & develop
@@ -17,6 +18,8 @@ const AboutMePop = () => {
         <div>
           <h1>Mern Stack</h1>
         </div>
+
+        <RxCross2 className="cursor-pointer" onClick={() => state()}/>
       </div>
     </div>
   );
