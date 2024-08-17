@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <nav className="flex justify-between max-w-screen-2xl mx-auto w-[99%] sm:w-[80%]">
       <div>
-        <img src={logo} alt="logo" className=" opacity-80 w-20 sm:w-20 mt-8 sm:m-5 absolute ml-4" />
+        <img src={logo} alt="logo" className=" opacity-80 w-12 sm:w-20 mt-8 sm:m-5 absolute ml-4" />
       </div>
       <div className="space-x-14 mt-8 mr-11 sm:mr-14 relative" >
         <a >
