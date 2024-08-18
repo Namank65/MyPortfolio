@@ -7,7 +7,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import MainLogo from "../assets/MainLogo5.png";
 import AboutMePop from "./AboutMePop";
-import LatestWorks from "./LatestWorks";
 
 const Hero = () => {
   const [aboutMe, setAboutMe] = useState(false);
@@ -35,7 +34,7 @@ const Hero = () => {
             className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-2 px-2 sm:px-11 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:scale-110 duration-150 group"
           >
             About Me
-            <FaArrowRightLong className=" text-white size-6 ml-[5rem] lg:ml-28 absolute group-hover:-right-6 ease-in-out duration-150 " />
+            <FaArrowRightLong className="text-white size-6 ml-[5rem] lg:ml-28 absolute group-hover:-right-6 ease-in-out duration-150 " />
           </button>
         </div>
         {aboutMe && <AboutMePop state={aboutStateManupulation} />}

@@ -1,7 +1,7 @@
-import React from 'react'
-import Header from './Header'
-import Hero from './Hero'
-import LatestWorks from './LatestWorks'
+import React from 'react';
+import Header from './Header';
+import Hero from './Hero';
+import LatestWorks from './LatestWorks';
 
 const MainComponent = () => {
   return (
