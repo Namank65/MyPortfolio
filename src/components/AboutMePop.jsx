@@ -20,6 +20,7 @@ const AboutMePop = ({ state }) => {
     "#css",
     "#tailwind",
     "#github",
+    "#Jwt"
   ];
 
   return (
@@ -44,22 +45,26 @@ const AboutMePop = ({ state }) => {
           <h1 className="text-2xl p-8 mb-4 text-sky-600 font-bold">
             MERN STACK
           </h1>
-          <div className="flex gap-7 pl-8 mt-8">
-            <div className="flex flex-col items-center text-green-500 cursor-default">
+          <div className="flex gap-3 pl-8 mt-8 cursor-default font-semibold">
+            <div className="flex flex-col items-center text-green-500">
               <DiMongodb className="size-12 " />
-              <p className="text-2xl mt-4 font-semibold">M</p>
+              <span className="text-2xl mt-4">M</span>
+              <p className="relative -top-36 px-2 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">MongoDB</span></p>
             </div>
             <div className="flex flex-col items-center">
-              <SiExpress className="size-12 " />
-              <p className="text-2xl mt-4 font-semibold">E</p>
+              <SiExpress className="size-12"/>
+              <span className="text-2xl mt-4 font-semibold">E</span>
+              <p className="relative -top-36 px-2 py-1 bg-white text-black rounded-full after:content-[''] after:bg-white after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">Express.JS</span></p>
             </div>
             <div className="flex flex-col items-center text-blue-400">
               <FaReact className="size-12" />
-              <p className="text-2xl mt-4 font-semibold">R</p>
+              <span className="text-2xl mt-4 font-semibold">R</span>
+              <p className="relative -top-36 px-3 py-1 bg-blue-400 text-black rounded-full after:content-[''] after:bg-blue-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">React.JS</span></p>
             </div>
             <div className="flex flex-col items-center text-green-400">
               <FaNodeJs className="size-12" />
-              <p className="text-2xl mt-4 font-semibold">N</p>
+              <span className="text-2xl mt-4 font-semibold">N</span>
+              <p className="relative -top-28 hover:-top-36 hover:transition-all ease-in-out px-3 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">Node.JS</span></p>
             </div>
           </div>
         </div>
