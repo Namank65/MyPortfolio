@@ -20,21 +20,21 @@ const AboutMePop = ({ state }) => {
     "#css",
     "#tailwind",
     "#github",
-    "#Jwt"
+    "#Jwt",
   ];
 
   return (
-    <div className="flex w-[90%] h-[90%] bg-slate-900 rounded-2xl text-white  absolute left-[5%] bottom-[5%] z-10">
+    <div className="flex w-[90%] h-[90%] bg-slate-900 rounded-2xl text-white  absolute left-[5%] bottom-[5%] z-10 ">
       <div className="flex flex-col w-[40%] ml-8 mt-5">
-        <div className="">
-          <h1 className="text-2xl p-8 text-sky-600 font-bold">ABOUT ME</h1>
-          <p className="pl-10">
+        <div className="cursor-default">
+          <h1 className="  text-sky-600 font-bold text-xl p-2 md:p-8 md:text-2xl">ABOUT ME</h1>
+          <p className=" text-xs pl-2 md:pl-10 md:text-sm ">
             I help business owners and busy web developers to design & develop
             creative websites that fits their vision and attracts the visitors
             to stay for ever. Technologies and tools that I use to create such
             awesome websites.
           </p>
-          <div className="flex flex-wrap gap-3 pl-10  mt-8 ">
+          <div className="flex flex-wrap gap-1 pl-2 mt-8 md:pl-10 md:gap-3 mb-4 md:mb-0 ">
             {skills.map((s, i) => (
               <Skills key={i} data={s} />
             ))}
@@ -42,29 +42,37 @@ const AboutMePop = ({ state }) => {
         </div>
 
         <div>
-          <h1 className="text-2xl p-8 mb-4 text-sky-600 font-bold">
+          <h1 className=" mb-4 text-sky-600 font-bold cursor-default text-xl p-2 md:p-10 md:text-2xl">
             MERN STACK
           </h1>
-          <div className="flex gap-3 pl-8 mt-8 cursor-default font-semibold">
-            <div className="flex flex-col items-center text-green-500">
-              <DiMongodb className="size-12 " />
+          <div className="flex gap-3 mt-8 font-semibold">
+            <div className="flex flex-col items-center text-green-500 group">
+              <DiMongodb className="size-12 z-20" />
               <span className="text-2xl mt-4">M</span>
-              <p className="relative -top-36 px-2 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">MongoDB</span></p>
+              <p className="relative shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-2 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
+                <span className="relative z-10">MongoDB</span>
+              </p>
             </div>
-            <div className="flex flex-col items-center">
-              <SiExpress className="size-12"/>
+            <div className="flex flex-col items-center group">
+              <SiExpress className="size-12 z-20" />
               <span className="text-2xl mt-4 font-semibold">E</span>
-              <p className="relative -top-36 px-2 py-1 bg-white text-black rounded-full after:content-[''] after:bg-white after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">Express.JS</span></p>
+              <p className="relative shadow-xl shadow-white opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-2 py-1 bg-white text-black rounded-full after:content-[''] after:bg-white after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
+                <span className="relative z-10">Express.JS</span>
+              </p>
             </div>
-            <div className="flex flex-col items-center text-blue-400">
-              <FaReact className="size-12" />
+            <div className="flex flex-col items-center text-blue-400 group ">
+              <FaReact className="size-12 z-20" />
               <span className="text-2xl mt-4 font-semibold">R</span>
-              <p className="relative -top-36 px-3 py-1 bg-blue-400 text-black rounded-full after:content-[''] after:bg-blue-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">React.JS</span></p>
+              <p className="relative shadow-xl shadow-blue-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-3 py-1 bg-blue-400 text-black rounded-full after:content-[''] after:bg-blue-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
+                <span className="relative z-10">React.JS</span>
+              </p>
             </div>
-            <div className="flex flex-col items-center text-green-400">
-              <FaNodeJs className="size-12" />
+            <div className="flex flex-col items-center text-green-400 group">
+              <FaNodeJs className="size-12 z-20"/>
               <span className="text-2xl mt-4 font-semibold">N</span>
-              <p className="relative -top-28 hover:-top-36 hover:transition-all ease-in-out px-3 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2"><span className="relative z-10">Node.JS</span></p>
+              <p className="relative shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-3 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 ">
+                <span className="relative z-10">Node.JS</span>
+              </p>
             </div>
           </div>
         </div>
@@ -77,7 +85,7 @@ const AboutMePop = ({ state }) => {
           />
         </div>
         <img
-          className="w-[90%] rounded-2xl m-9 mt-0 shadow-xl shadow-slate-800"
+          className="w-[90%] rounded-2xl m-4 mt-0 shadow-xl shadow-slate-800"
           src={aboutMeImg}
           alt="aboutImg"
         />
