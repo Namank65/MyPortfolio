@@ -34,7 +34,7 @@ const AboutMePop = ({ state }) => {
             to stay for ever. Technologies and tools that I use to create such
             awesome websites.
           </p>
-          <div className="flex flex-wrap gap-1 pl-2 mt-8 md:pl-10 md:gap-3 mb-4 md:mb-0 ">
+          <div className="flex flex-wrap gap-1 pl-2 mt-8 md:pl-10 md:gap-3 mb-4 md:mb-0">
             {skills.map((s, i) => (
               <Skills key={i} data={s} />
             ))}
@@ -77,15 +77,15 @@ const AboutMePop = ({ state }) => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col">
-        <div className="flex justify-end m-4 ">
+      <div className="flex flex-col justify-center">
+        <div className="flex m-4 w-8 h-8 absolute right-0 top-0">
           <RxCross2
             className="cursor-pointer size-7 bg-transparent border border-blue-900 rounded-full hover:rotate-45 transition-all "
             onClick={() => state()}
           />
         </div>
         <img
-          className="w-[90%] rounded-2xl m-4 mt-0 shadow-xl shadow-slate-800"
+          className="w-[90%] rounded-2xl m-4 ml-5 shadow-xl shadow-slate-800"
           src={aboutMeImg}
           alt="aboutImg"
         />
