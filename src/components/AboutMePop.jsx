@@ -25,9 +25,11 @@ const AboutMePop = ({ state }) => {
 
   return (
     <div className="flex w-[90%] h-[90%] bg-slate-900 rounded-2xl text-white  absolute left-[5%] bottom-[5%] z-10 ">
-      <div className="flex flex-col w-full md:w-[40%] ml-4 mt-12 md:mt-2">
+      <div className="flex flex-col w-full md:w-[40%] md:ml-4 ml-0 mt-12 md:mt-2">
         <div className="md:block flex flex-col items-center cursor-default">
-          <h1 className="text-sky-600 font-bold text-xl md:mb-0 mb-7 p-2 md:p-8 md:text-2xl">ABOUT ME</h1>
+          <h1 className="text-sky-600 font-bold text-xl md:mb-0 mb-7 p-2 md:p-8 md:text-2xl">
+            ABOUT ME
+          </h1>
           <p className="md:w-full w-11/12 md:pl-10 md:text-sm">
             I help business owners and busy web developers to design & develop
             creative websites that fits their vision and attracts the visitors
@@ -41,8 +43,8 @@ const AboutMePop = ({ state }) => {
           </div>
         </div>
 
-        <div className="cursor-default md:block flex flex-col items-center md:mt-0 mt-7">
-          <h1 className=" mb-4 text-sky-600 font-bold  text-xl p-2 md:p-10 md:text-2xl">
+        <div className="cursor-default md:block flex flex-col items-center md:mt-0 mt-3">
+          <h1 className="text-sky-600 font-bold  text-xl p-2 md:p-10 md:text-2xl">
             MERN STACK
           </h1>
           <div className="flex gap-0 md:gap-1 mt-8 font-semibold">
@@ -68,7 +70,7 @@ const AboutMePop = ({ state }) => {
               </p>
             </div>
             <div className="flex flex-col items-center text-green-400 group">
-              <FaNodeJs className="md:size-12 size-8 z-20"/>
+              <FaNodeJs className="md:size-12 size-8 z-20" />
               <span className="text-2xl mt-4 font-semibold">N</span>
               <p className="relative shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-3 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 ">
                 <span className="relative z-10">Node.JS</span>
