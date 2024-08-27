@@ -51,28 +51,28 @@ const AboutMePop = ({ state }) => {
             <div className="flex flex-col items-center text-green-500 group">
               <DiMongodb className="md:size-12 size-8 z-20" />
               <span className="text-2xl mt-4">M</span>
-              <p className="relative shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-2 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
+              <p className="relative shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-jump px-2 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
                 <span className="relative z-10">MongoDB</span>
               </p>
             </div>
             <div className="flex flex-col items-center group">
               <SiExpress className="md:size-12 size-8 z-20" />
               <span className="text-2xl mt-4 font-semibold">E</span>
-              <p className="relative shadow-xl shadow-white opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-2 py-1 bg-white text-black rounded-full after:content-[''] after:bg-white after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
+              <p className="relative shadow-xl shadow-white opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-jump px-2 py-1 bg-white text-black rounded-full after:content-[''] after:bg-white after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
                 <span className="relative z-10">Express.JS</span>
               </p>
             </div>
             <div className="flex flex-col items-center text-blue-400 group ">
               <FaReact className="md:size-12 size-8 z-20" />
               <span className="text-2xl mt-4 font-semibold">R</span>
-              <p className="relative shadow-xl shadow-blue-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-3 py-1 bg-blue-400 text-black rounded-full after:content-[''] after:bg-blue-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
+              <p className="relative shadow-xl shadow-blue-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-jump px-3 py-1 bg-blue-400 text-black rounded-full after:content-[''] after:bg-blue-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2">
                 <span className="relative z-10">React.JS</span>
               </p>
             </div>
             <div className="flex flex-col items-center text-green-400 group">
               <FaNodeJs className="md:size-12 size-8 z-20" />
               <span className="text-2xl mt-4 font-semibold">N</span>
-              <p className="relative shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-in-out px-3 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 ">
+              <p className="relative shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-36 -top-28 hover:transition-all duration-200 ease-jump px-3 py-1 bg-green-400 text-black rounded-full after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 ">
                 <span className="relative z-10">Node.JS</span>
               </p>
             </div>
