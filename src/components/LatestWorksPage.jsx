@@ -20,8 +20,8 @@ const LatestWorksPage = () => {
   ];
 
   return (
-    <div className=" mt-8 text-white bg-slate-950 absolute w-[99.99%] ">
-      <h1 className="text-4xl m-auto px-4 py-2 md:border rounded-md max-w-max mb-16 md:border-t-0">
+    <div className="mt-8 text-white bg-slate-950 relative w-[99.99%] h-[1000px]">
+      <h1 className="text-4xl bg-inherit relative m-auto px-4 py-2 md:border z-10 rounded-md max-w-max mb-16 md:border-t-0">
         Latest Works
       </h1>
 
@@ -54,6 +54,7 @@ const LatestWorksPage = () => {
 
         </div>
       </div>
+      <div className="w-1 absolute rounded-xl bg-red-500 top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
     </div>
   );
 };
