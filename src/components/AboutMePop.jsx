@@ -24,7 +24,7 @@ const AboutMePop = ({ state }) => {
   ];
 
   return (
-    <div className="flex w-[90%] h-[90%] bg-slate-900 rounded-2xl text-white  absolute left-[5%] bottom-[5%] z-10 ">
+    <div className="flex w-[90%] h-[90%] bg-slate-900 rounded-2xl text-white  absolute left-[5%] bottom-[5%] z-20 ">
       <div className="flex flex-col w-full md:w-[40%] md:ml-4 ml-0 mt-12 md:mt-2">
         <div className="md:block flex flex-col items-center cursor-default">
           <h1 className="text-sky-600 font-bold text-xl md:mb-0 mb-7 p-2 md:p-8 md:text-2xl">
