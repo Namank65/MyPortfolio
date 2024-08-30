@@ -19,7 +19,7 @@ const LatestWorksPage = () => {
   ];
 
   return (
-    <div className="mt-8 text-white bg-slate-950 relative w-[99.99%] h-[1000px]">
+    <div className="mt-8 text-white bg-slate-950 relative w-[99.99%]">
       <h1 className="text-4xl bg-inherit relative m-auto px-4 py-2 md:border-b z-10 max-w-max mb-16 md:border-t-0">
         Latest Works
       </h1>
@@ -27,10 +27,10 @@ const LatestWorksPage = () => {
       <div className="flex md:flex-row flex-col gap-20 items-center mb-20 m-auto w-[90%] max-w-7xl">
         <div className="w-full">
           <div className="flex items-start md:justify-normal justify-center ">
-            <a href="#" className="group">
+            <a href="https://nubifashon.web.app/" className="group">
               <div className="flex justify-center items-center">
                 <div className="h-[1px] absolute left-1/4 right-1/2 bg-red-600"></div>
-                <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
+                <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 md:block hidden rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
                 <img
                   src={projectImg}
                   alt="ProjectImg"
@@ -39,14 +39,14 @@ const LatestWorksPage = () => {
               </div>
 
               <p className="relative ease-jump w-40 shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-80 -top-56 hover:transition-all duration-200 px-2 py-1 bg-green-400 text-black rounded-md after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 text-center left-1/2 -translate-x-1/2">
-                <span className="relative z-10">Somthing</span>
+                <span className="relative z-10">Nubi Fashion</span>
               </p>
             </a>
           </div>
         </div>
 
         <div className="flex flex-col items-start w-full">
-          <h3 className="text-4xl mb-1">Somthing</h3>
+          <h3 className="text-4xl mb-1">Nubi Fashion</h3>
           <span className="text-xl py-4">(SomeOne)</span>
           <p className="text-justify">
             HariGurus is a one-stop-shop for all Hindu religious, customs and
@@ -59,7 +59,7 @@ const LatestWorksPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex md:flex-row flex-col-reverse gap-20 items-center mb-12 m-auto w-[90%] max-w-7xl">
+      <div className="flex md:flex-row flex-col-reverse gap-20 items-center m-auto w-[90%] max-w-7xl">
         <div className="flex flex-col items-start w-full">
           <h3 className="text-4xl mb-1">Somthing</h3>
           <span className="text-xl py-4">(SomeOne)</span>
@@ -75,10 +75,10 @@ const LatestWorksPage = () => {
         </div>
         <div className="w-full">
           <div className="flex md:justify-normal justify-center">
-            <a href="#" className="group ml-auto">
+            <a href="#" className="group md:ml-auto ml-0">
               <div className="flex justify-center items-center">
                 <div className="h-[1px] absolute left-1/2 right-1/4 bg-red-600"></div>
-                <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
+                <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 md:block hidden rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
                 <img
                   src={projectImg}
                   alt="ProjectImg"
@@ -93,7 +93,7 @@ const LatestWorksPage = () => {
           </div>
         </div>
       </div>
-      <div className="w-[2px] absolute rounded-xl bg-red-500 top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
+      <div className="w-[2px] md:block hidden absolute rounded-xl bg-red-500 top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
     </div>
   );
 };
