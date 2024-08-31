@@ -19,7 +19,7 @@ const LatestWorksPage = () => {
   ];
 
   return (
-    <div className="mt-8 text-white bg-slate-950 relative w-[99.99%]">
+    <div className="mt-8 pb-20 md:pb-40 text-white bg-slate-950 relative w-[99.99%]">
       <h1 className="text-4xl bg-inherit relative m-auto px-4 py-2 md:border-b z-10 max-w-max mb-16 md:border-t-0">
         Latest Works
       </h1>
@@ -34,7 +34,7 @@ const LatestWorksPage = () => {
                 <img
                   src={projectImg}
                   alt="ProjectImg"
-                  className="max-w-[400px] w-full hover:scale-110 hover:transition-all duration-200 ease-in-out flex justify-center relative"
+                  className="max-w-[400px] w-full hover:scale-110 hover:transition-all duration-200 ease-in-out flex justify-center relative drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
                 />
               </div>
 
@@ -82,7 +82,7 @@ const LatestWorksPage = () => {
                 <img
                   src={projectImg}
                   alt="ProjectImg"
-                  className="max-w-[400px] w-full hover:scale-110 hover:transition-all duration-200 ease-in-out flex justify-center relative"
+                  className="max-w-[400px] w-full hover:scale-110 hover:transition-all duration-200 ease-in-out flex justify-center relative drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
                 />
               </div>
 
