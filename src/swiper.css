@@ -16,16 +16,9 @@ body {
   padding: 0;
 }
 
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* background: #9699a8; */
-  /* background: #020617; */
   background: inherit;
 
   /* Center slide text vertically */
@@ -34,9 +27,17 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@media (max-width: 760px) {
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    display: none;
+  }
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    display: none;
+    
+}
+}
+
+.swiper-pagination-bullet {
+  background: rgb(253, 253, 253);
 }
