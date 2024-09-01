@@ -1,6 +1,6 @@
 import React from "react";
 import clint1 from "../assets/saatvik.webp";
-import clint2 from "../assets/srihari.webp";
+import clint2 from "../assets/Srihari.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { Pagination } from 'swiper/modules';

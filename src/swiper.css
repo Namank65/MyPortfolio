@@ -34,7 +34,6 @@ body {
   }
   .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
     display: none;
-    
 }
 }
 
