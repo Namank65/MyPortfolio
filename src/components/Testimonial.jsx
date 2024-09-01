@@ -16,7 +16,7 @@ const Testimonial = () => {
         What my clients are saying?
       </h1>
 
-      <div className="max-w-7xl flex w-[80%] justify-center items-center text-black m-auto">
+      <div className="max-w-7xl flex w-full md:w-[80%] justify-center items-center text-black m-auto">
         <Swiper
           navigation={true}
           pagination={true}
