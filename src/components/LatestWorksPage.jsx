@@ -38,7 +38,7 @@ const LatestWorksPage = () => {
                 />
               </div>
 
-              <p className="relative ease-jump w-40 shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-80 -top-56 hover:transition-all duration-200 px-2 py-1 bg-green-400 text-black rounded-md after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 text-center left-1/2 -translate-x-1/2">
+              <p className="relative ease-jump w-40 shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 md:group-hover:-top-80 group-hover:-top-52 -top-56 hover:transition-all duration-200 px-2 py-1 bg-green-400 text-black rounded-md after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 text-center left-1/2 -translate-x-1/2">
                 <span className="relative z-10">Nubi Fashion</span>
               </p>
             </a>
@@ -86,7 +86,7 @@ const LatestWorksPage = () => {
                 />
               </div>
 
-              <p className="relative ease-jump w-40 shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 group-hover:-top-80 -top-56 hover:transition-all duration-200 px-2 py-1 bg-green-400 text-black rounded-md after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 text-center left-1/2 -translate-x-1/2">
+              <p className="relative ease-jump w-40 shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 md:group-hover:-top-80 group-hover:-top-52 -top-56 hover:transition-all duration-200 px-2 py-1 bg-green-400 text-black rounded-md after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 text-center left-1/2 -translate-x-1/2">
                 <span className="relative z-10">Somthing</span>
               </p>
             </a>
