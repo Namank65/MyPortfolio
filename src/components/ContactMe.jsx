@@ -21,7 +21,8 @@ const ContactMe = () => {
           />
         </div>
 
-        <form  class="w-full space-y-5" name="Contact Me" method="POST" data-netlify="true" onSubmit="submit">
+        <form  class="w-full space-y-5" name="Contact Me" method="post" data-netlify="true" onSubmit="submit">
+          <input type="hidden" value="Contact Me" />
           <div>
             <label
               for="email-address-icon"
