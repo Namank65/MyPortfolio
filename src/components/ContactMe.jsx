@@ -21,7 +21,7 @@ const ContactMe = () => {
           />
         </div>
 
-        <form  class="w-full space-y-5" name="Contact" netlify>
+        <form  class="w-full space-y-5" name="Contact Me" method="POST" data-netlify="true" onSubmit="submit">
           <div>
             <label
               for="email-address-icon"
@@ -74,7 +74,7 @@ const ContactMe = () => {
             />
           </div>
 
-          <button className="outline-none border-none text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500  w-full ps-2 p-4 bg-blue-500 hover:bg-blue-400 font-bold flex justify-center gap-2">
+          <button type="submit" className="outline-none border-none text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500  w-full ps-2 p-4 bg-blue-500 hover:bg-blue-400 font-bold flex justify-center gap-2">
             <FaPaperPlane className="size-6" />
             Send Message
           </button>
