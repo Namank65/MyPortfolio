@@ -21,7 +21,7 @@ const ContactMe = () => {
           />
         </div>
 
-        <form name="Contact Me" class="w-full space-y-5" netlify>
+        <form  class="w-full space-y-5" name="Contact" netlify>
           <div>
             <label
               for="email-address-icon"
