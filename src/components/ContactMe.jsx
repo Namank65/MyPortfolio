@@ -21,7 +21,7 @@ const ContactMe = () => {
           />
         </div>
 
-        <form class="w-full space-y-5">
+        <form name="Contact Me" class="w-full space-y-5">
           <div>
             <label
               for="email-address-icon"
@@ -32,6 +32,7 @@ const ContactMe = () => {
             </label>
             <input
               required
+              name="Name- "
               type="text"
               placeholder="Enter Your Name"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
@@ -48,6 +49,7 @@ const ContactMe = () => {
             </label>
             <input
               required
+              name="Email- "
               type="email"
               placeholder="Enter Your Name"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
@@ -64,6 +66,7 @@ const ContactMe = () => {
             </label>
             <textarea
               required
+              name="Message- "
               placeholder="Message"
               rows="4"
               cols="50"

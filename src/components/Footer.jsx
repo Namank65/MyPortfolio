@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
         </ul>
         <div className='flex flex-col items-center'>
-            <p className='text-gray-500 text-xs gap '>Made With ❤️ By Souamya and Copyrighted by SouamyaDev </p>
+            <p className='text-gray-500 text-xs gap '>Made With ❤️ By Souamya and Copyrighted by SouamyaDev Pvt.Ltd. </p>
             <span className='text-gray-500 text-xs underline' > @ 2024 All Right Reserved</span>
             </div>
         </div>
