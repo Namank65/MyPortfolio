@@ -6,6 +6,19 @@
     <title>SouamyaDev.com</title>
   </head>
   <body class="bg-slate-950">
+    <form
+      name="contact"
+      netlify-honeypot="bot-field"
+      id="contact-form"
+      netlify
+      hidden
+    >
+      <input type="hidden" name="jobType" />
+      <input type="hidden" name="priceTier" />
+      <input type="text" name="name" required />
+      <input type="email" name="email" required />
+      <textarea name="message"></textarea>
+    </form>
     <div id="root">root</div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
