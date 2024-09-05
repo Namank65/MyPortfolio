@@ -23,12 +23,13 @@ const ContactMe = () => {
 
         <form
           class="w-full space-y-5"
-          name="contact me"
+          name="contact"
           method="post"
-          data-netlify="true"
+          action="/contact"
           onSubmit="submit"
+          netlify
         >
-          <input type="hidden" name="form-name" value="contact me" />
+          <input type="hidden" name="form-name" value="contact" />
           <div>
             <label
               htmlFor="name-address-icon"
@@ -36,15 +37,16 @@ const ContactMe = () => {
             >
               <MdPerson className="size-6" />
               Name
-            </label>
-            <input
+              <input
               id="name-address-icon"
               required
-              name="Name- "
+              name="name"
               type="text"
               placeholder="Enter Your Name"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
             />
+            </label>
+            
           </div>
 
           <div>
@@ -54,15 +56,15 @@ const ContactMe = () => {
             >
               <IoIosAt className="size-6" />
               Email
-            </label>
             <input
               id="email-address-icon"
               required
-              name="Email- "
+              name="email"
               type="email"
               placeholder="Enter Your Name"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
-            />
+              />
+              </label>
           </div>
 
           <div>
@@ -72,16 +74,16 @@ const ContactMe = () => {
             >
               <TbMessage className="size-6" />
               Message
-            </label>
             <textarea
               id="message-address-icon"
               required
-              name="Message- "
-              placeholder="Message"
+              name="message"
+              placeholder="message"
               rows="4"
               cols="50"
               className="resize-none border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
-            />
+              />
+              </label>
           </div>
 
           <button
