@@ -35,6 +35,7 @@ const ContactMe = () => {
             >
               <MdPerson className="size-6" />
               Name
+              </label>
               <input
               id="name-address-icon"
               required
@@ -43,7 +44,6 @@ const ContactMe = () => {
               placeholder="Enter Your Name"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
             />
-            </label>
             
           </div>
 
@@ -54,6 +54,7 @@ const ContactMe = () => {
             >
               <IoIosAt className="size-6" />
               Email
+              </label>
             <input
               id="email-address-icon"
               required
@@ -62,7 +63,6 @@ const ContactMe = () => {
               placeholder="Enter Your Name"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
               />
-              </label>
           </div>
 
           <div>
@@ -72,6 +72,7 @@ const ContactMe = () => {
             >
               <TbMessage className="size-6" />
               Message
+              </label>
             <textarea
               id="message-address-icon"
               required
@@ -81,7 +82,6 @@ const ContactMe = () => {
               cols="50"
               className="resize-none border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
               />
-              </label>
           </div>
 
           <button
