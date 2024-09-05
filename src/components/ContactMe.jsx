@@ -21,17 +21,24 @@ const ContactMe = () => {
           />
         </div>
 
-        <form  class="w-full space-y-5" name="Contact Me" method="post" data-netlify="true" onSubmit="submit">
-          <input type="hidden" value="Contact Me" />
+        <form
+          class="w-full space-y-5"
+          name="contact me"
+          method="post"
+          data-netlify="true"
+          onSubmit="submit"
+        >
+          <input type="hidden" name="form-name" value="contact me" />
           <div>
             <label
-              for="email-address-icon"
+              htmlFor="name-address-icon"
               class="flex items-center gap-1 mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
               <MdPerson className="size-6" />
               Name
             </label>
             <input
+              id="name-address-icon"
               required
               name="Name- "
               type="text"
@@ -42,13 +49,14 @@ const ContactMe = () => {
 
           <div>
             <label
-              for="email-address-icon"
+              htmlFor="email-address-icon"
               class="flex items-center gap-1 mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
               <IoIosAt className="size-6" />
               Email
             </label>
             <input
+              id="email-address-icon"
               required
               name="Email- "
               type="email"
@@ -59,13 +67,14 @@ const ContactMe = () => {
 
           <div>
             <label
-              for="email-address-icon"
+              htmlFor="message-address-icon"
               class="flex items-center gap-1 mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
               <TbMessage className="size-6" />
               Message
             </label>
             <textarea
+              id="message-address-icon"
               required
               name="Message- "
               placeholder="Message"
@@ -75,7 +84,10 @@ const ContactMe = () => {
             />
           </div>
 
-          <button type="submit" className="outline-none border-none text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500  w-full ps-2 p-4 bg-blue-500 hover:bg-blue-400 font-bold flex justify-center gap-2">
+          <button
+            type="submit"
+            className="outline-none border-none text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500  w-full ps-2 p-4 bg-blue-500 hover:bg-blue-400 font-bold flex justify-center gap-2"
+          >
             <FaPaperPlane className="size-6" />
             Send Message
           </button>
