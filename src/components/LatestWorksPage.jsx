@@ -1,5 +1,5 @@
 import React from "react";
-import projectImg from "../assets/Portfolio.webp";
+import nubiFashion from "../assets/Nubi_Fashion.png";
 import Skills from "./Skills";
 
 const LatestWorksPage = () => {
@@ -14,7 +14,6 @@ const LatestWorksPage = () => {
     "#html",
     "#css",
     "#tailwind",
-    "#github",
     "#Jwt",
   ];
 
@@ -32,7 +31,7 @@ const LatestWorksPage = () => {
                 <div className="h-[1px] absolute left-1/4 right-1/2 bg-red-600"></div>
                 <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 md:block hidden rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
                 <img
-                  src={projectImg}
+                  src={nubiFashion}
                   alt="ProjectImg"
                   className="max-w-[400px] w-full hover:scale-110 hover:transition-all duration-200 ease-in-out flex justify-center relative drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
                 />
@@ -47,10 +46,10 @@ const LatestWorksPage = () => {
 
         <div className="flex flex-col items-start w-full">
           <h3 className="text-4xl mb-1">Nubi Fashion</h3>
-          <span className="text-xl py-4">(SomeOne)</span>
+          <span className="text-xl py-4">(Ecommerce)</span>
           <p className="text-justify">
-            HariGurus is a one-stop-shop for all Hindu religious, customs and
-            traditional requirements. Built the complete site from scratch.
+          Nubi Fashion is a one-stop-shop for all type of Fashion and branded cloths
+            traditional or fancy. Built the complete site from scratch.
           </p>
           <div className="flex flex-wrap w-11/12 gap-4 mt-4 md:gap-3 mb-0">
             {skills.map((s, i) => (
@@ -80,7 +79,7 @@ const LatestWorksPage = () => {
                 <div className="h-[1px] absolute left-1/2 right-1/4 bg-red-600"></div>
                 <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 md:block hidden rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
                 <img
-                  src={projectImg}
+                  src={nubiFashion}
                   alt="ProjectImg"
                   className="max-w-[400px] w-full hover:scale-110 hover:transition-all duration-200 ease-in-out flex justify-center relative drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
                 />

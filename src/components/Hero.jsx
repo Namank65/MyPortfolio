@@ -31,10 +31,10 @@ const Hero = () => {
           </p>
           <button
             onClick={() => setAboutMe(!aboutMe)}
-            className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-2 px-2 sm:px-11 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:scale-110 duration-150 group"
+            className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-2 px-2 sm:px-11 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:scale-105 duration-150 group"
           >
             About Me
-            <FaArrowRightLong className="text-white size-6 ml-[5rem] lg:ml-28 absolute group-hover:-right-6 ease-in-out duration-150 " />
+            <FaArrowRightLong className="text-white size-6 ml-16 lg:ml-24 absolute group-hover:-right-4 ease-in-out duration-300"/>
           </button>
         </div>
         {aboutMe && <AboutMePop state={aboutStateManupulation} />}
