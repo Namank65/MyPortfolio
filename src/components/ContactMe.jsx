@@ -7,7 +7,7 @@ import { FaPaperPlane } from "react-icons/fa";
 
 const ContactMe = () => {
   return (
-    <div className="text-white bg-slate-950 relative w-[99.99%] h-screen ">
+    <div className="text-white bg-slate-950 relative w-[99.99%] h-screen cursor-default">
       <h1 className="text-xl md:text-4xl rounded-lg bg-inherit relative m-auto px-5 py-4 border z-10 max-w-max mb-9 md:mb-16 ">
         Let's Connect
       </h1>
@@ -25,7 +25,8 @@ const ContactMe = () => {
           class="w-full space-y-5"
           name="contact"
           action="/contact"
-          method="POST" data-netlify="true"
+          method="POST"
+          data-netlify="true"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div>
@@ -35,8 +36,8 @@ const ContactMe = () => {
             >
               <MdPerson className="size-6" />
               Name
-              </label>
-              <input
+            </label>
+            <input
               id="name-address-icon"
               required
               name="name"
@@ -44,7 +45,6 @@ const ContactMe = () => {
               placeholder="Enter Your Name"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
             />
-            
           </div>
 
           <div>
@@ -54,15 +54,15 @@ const ContactMe = () => {
             >
               <IoIosAt className="size-6" />
               Email
-              </label>
+            </label>
             <input
               id="email-address-icon"
               required
               name="email"
               type="email"
-              placeholder="Enter Your Name"
+              placeholder="Enter Your Email"
               className="border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
-              />
+            />
           </div>
 
           <div>
@@ -72,16 +72,16 @@ const ContactMe = () => {
             >
               <TbMessage className="size-6" />
               Message
-              </label>
+            </label>
             <textarea
               id="message-address-icon"
               required
               name="message"
-              placeholder="message"
+              placeholder="Enter your Message"
               rows="4"
               cols="50"
               className="resize-none border-none border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-2 p-2.5 bg-gray-700 "
-              />
+            />
           </div>
 
           <button

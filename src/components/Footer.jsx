@@ -7,7 +7,7 @@ import { GrInstagram } from 'react-icons/gr';
 
 const Footer = () => {
   return (
-    <div className="text-white bg-slate-950 relative flex justify-center ">
+    <div className="text-white bg-slate-950 relative flex justify-center cursor-default">
         <div className='flex flex-col items-center gap-5 pb-5'>
 
       <img src={logo} alt="logo" className="opacity-80 w-16  mt-8 sm:m-5  ml-4" />

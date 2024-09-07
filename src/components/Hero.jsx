@@ -13,7 +13,7 @@ const Hero = () => {
 
   const aboutStateManupulation = () => setAboutMe(false);
   return (
-    <div className="flex items-center">
+    <div className="flex items-center cursor-default">
       <div className="max-w-screen-2xl w-[70%] mx-auto text-white">
         <div>
           <img
@@ -31,10 +31,10 @@ const Hero = () => {
           </p>
           <button
             onClick={() => setAboutMe(!aboutMe)}
-            className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-2 px-2 sm:px-11 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:scale-105 duration-150 group"
+            className=" translate-y-12 sm:translate-y-0 flex py-1 sm:py-2 px-2 sm:px-11 font-medium sm:font-bold rounded-md bg-gradient-to-l from-[#8c52ff] to-[#341671] hover:scale-105 duration-300 group"
           >
             About Me
-            <FaArrowRightLong className="text-white size-6 ml-16 lg:ml-24 absolute group-hover:-right-4 ease-in-out duration-300"/>
+            <FaArrowRightLong className="text-white size-6 absolute group-hover:-right-6 ease-in-out duration-300 md:right-0 -right-4"/>
           </button>
         </div>
         {aboutMe && <AboutMePop state={aboutStateManupulation} />}

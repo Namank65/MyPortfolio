@@ -18,7 +18,7 @@ const LatestWorksPage = () => {
   ];
 
   return (
-    <div className="mt-8 pb-20 md:pb-40 text-white bg-slate-950 relative w-[99.99%]">
+    <div className="mt-8 pb-20 md:pb-40 text-white bg-slate-950 relative w-[99.99%] cursor-default">
       <h1 className="text-4xl bg-inherit relative m-auto px-4 py-2 md:border-b z-10 max-w-max mb-16 md:border-t-0">
         Latest Works
       </h1>
@@ -60,8 +60,8 @@ const LatestWorksPage = () => {
       </div>
       <div className="flex md:flex-row flex-col-reverse gap-20 items-center m-auto w-[90%] max-w-7xl">
         <div className="flex flex-col items-start w-full">
-          <h3 className="text-4xl mb-1">Somthing</h3>
-          <span className="text-xl py-4">(SomeOne)</span>
+          <h3 className="text-4xl mb-1">will update soon</h3>
+          <span className="text-xl py-4">(coming soon)</span>
           <p className="text-justify">
             HariGurus is a one-stop-shop for all Hindu religious, customs and
             traditional requirements. Built the complete site from scratch.
