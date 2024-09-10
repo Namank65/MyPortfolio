@@ -74,7 +74,7 @@ const LatestWorksPage = () => {
         </div>
         <div className="w-full">
           <div className="flex md:justify-normal justify-center">
-            <a href="#" className="group md:ml-auto ml-0">
+            <a href="https://netshow-794dd.web.app/" className="group md:ml-auto ml-0">
               <div className="flex justify-center items-center">
                 <div className="h-[1px] absolute left-1/2 right-1/4 bg-red-600"></div>
                 <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 md:block hidden rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
