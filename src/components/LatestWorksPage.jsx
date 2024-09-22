@@ -1,5 +1,6 @@
 import React from "react";
 import nubiFashion from "../assets/Nubi_Fashion.png";
+import NetShow from "../assets/NetShow.png";
 import Skills from "./Skills";
 
 const LatestWorksPage = () => {
@@ -60,11 +61,10 @@ const LatestWorksPage = () => {
       </div>
       <div className="flex md:flex-row flex-col-reverse gap-20 items-center m-auto w-[90%] max-w-7xl">
         <div className="flex flex-col items-start w-full">
-          <h3 className="text-4xl mb-1">will update soon</h3>
-          <span className="text-xl py-4">(coming soon)</span>
+          <h3 className="text-4xl mb-1">Net Show</h3>
+          <span className="text-xl py-4">(streaming)</span>
           <p className="text-justify">
-            HariGurus is a one-stop-shop for all Hindu religious, customs and
-            traditional requirements. Built the complete site from scratch.
+          Net Show is a one-stop-shop for all movies and TV shows, made with the help of tmdb api. Built the complete site from scratch.
           </p>
           <div className="flex flex-wrap w-11/12 gap-4 mt-4 md:gap-3 mb-0">
             {skills.map((s, i) => (
@@ -79,14 +79,14 @@ const LatestWorksPage = () => {
                 <div className="h-[1px] absolute left-1/2 right-1/4 bg-red-600"></div>
                 <div className="w-4 h-4 absolute bg-slate-950 z-10 left-1/2 -translate-x-1/2 md:block hidden rounded-full border-[3px] border-red-600 hover:scale-125 duration-200 ease-in-out"></div>
                 <img
-                  src={nubiFashion}
+                  src={NetShow}
                   alt="ProjectImg"
                   className="max-w-[400px] w-full hover:scale-110 hover:transition-all duration-200 ease-in-out flex justify-center relative drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
                 />
               </div>
 
-              <p className="relative ease-jump w-40 shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 md:group-hover:-top-80 group-hover:-top-52 -top-56 hover:transition-all duration-200 px-2 py-1 bg-green-400 text-black rounded-md after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 text-center left-1/2 -translate-x-1/2">
-                <span className="relative z-10">Somthing</span>
+              <p className="relative ease-jump w-40 shadow-xl shadow-green-400 opacity-0 group-hover:opacity-100 md:group-hover:-top-72 group-hover:-top-52 -top-56 hover:transition-all duration-300 px-2 py-1 bg-green-400 text-black rounded-md after:content-[''] after:bg-green-400 after:w-4 after:h-4 after:absolute after:rotate-45 after:left-[50%] after:-bottom-2 after:-translate-x-2 text-center left-1/2 -translate-x-1/2">
+                <span className="relative z-10">Net Show</span>
               </p>
             </a>
           </div>
