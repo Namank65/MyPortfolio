@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/Logo5.png";
+// import resume from "../assets/SouamayaDevResume.pdf";
 import { PiReadCvLogo } from "react-icons/pi";
 
 const Header = () => {
@@ -8,9 +9,10 @@ const Header = () => {
       <div>
         <img src={logo} alt="logo" className=" opacity-80 w-12 sm:w-20 mt-8 sm:m-5 absolute ml-4" />
       </div>
-      <div className="space-x-14 mt-8 mr-11 sm:mr-14 relative" >
-        <a >
-          <PiReadCvLogo className="hover:text-[#8c52ff] size-5 sm:size-7 text-white hover:scale-125 ease-in-out duration-100 absolute border-black rounded-2xl cursor-pointer" />
+      <div className="space-x-14 mt-5 mr-11 sm:mr-14 relative" >
+        <a href="https://drive.google.com/file/d/1qkdiHxxzsmM0iuPmDpGzO2-kKzxbI0SS/view?usp=sharing" className="text-[#8c52ff]">Resume
+          <PiReadCvLogo className="hover:text-[#8c52ff] w-[2.75rem] sm:w-[2.75rem] size-5 sm:size-7 text-white hover:scale-125 ease-in-out duration-100 absolute border-black rounded-2xl cursor-pointer" />
+          
         </a>
       </div>
     </nav>
