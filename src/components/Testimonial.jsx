@@ -36,7 +36,7 @@ const Testimonial = () => {
 
               <div className="text-white md:pt-16 max-w-screen-sm">
                 <p className="text-left text-sm md:text-lg my-4 font-light ">
-                  “Anurag is a talented, committed individual who will leave no
+                  “Souamya is a talented, committed individual who will leave no
                   stone unturned in his pursuit to provide with the best. His
                   attention to detail and in-depth experience in the of web
                   development is indeed commendable. He has exhibited exemplary
@@ -62,7 +62,7 @@ const Testimonial = () => {
 
               <div className="text-white md:pt-16 max-w-screen-sm">
                 <p className="text-left text-sm md:text-lg my-4 font-light ">
-                  “Anurag is a talented, committed individual who will leave no
+                  “Souamya is a talented, committed individual who will leave no
                   stone unturned in his pursuit to provide with the best. His
                   attention to detail and in-depth experience in the of web
                   development is indeed commendable. He has exhibited exemplary
