@@ -31,10 +31,12 @@ const AboutMePop = ({ state }) => {
             ABOUT ME
           </h1>
           <p className="md:w-full w-11/12 md:pl-10 md:text-sm">
-            I help business owners and busy web developers to design & develop
-            creative websites that fits their vision and attracts the visitors
-            to stay for ever. Technologies and tools that I use to create such
-            awesome websites.
+            Dedicated full-stack developer with a strong foundation in React.js,
+            Next.js, Node.js, and MongoDB, specializing in building scalable web
+            applications. Experienced in API integration, authentication, and
+            AI-powered solutions, including GPT-based systems. Passionate about
+            creating user-focused digital experiences and continuously learning
+            cutting-edge technologies.
           </p>
           <div className="flex flex-wrap w-11/12 gap-4 pl-2 mt-8 md:pl-10 md:gap-3 mb-4 md:mb-0">
             {skills.map((s, i) => (
@@ -47,7 +49,7 @@ const AboutMePop = ({ state }) => {
           <h1 className="text-sky-600 font-bold  text-xl p-2 md:p-10 md:text-2xl">
             MERN STACK
           </h1>
-          <div className="flex gap-0 md:gap-1 mt-8 font-semibold">
+          <div className="flex gap-0 md:gap-1 mt-1 font-semibold">
             <div className="flex flex-col items-center text-green-500 group">
               <DiMongodb className="md:size-12 size-8 z-20" />
               <span className="text-2xl mt-4">M</span>

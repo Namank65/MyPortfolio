@@ -10,7 +10,6 @@ const Header = () => {
       <div className="space-x-14 mt-5 mr-11 sm:mr-14 relative" >
         <a href="https://drive.google.com/file/d/1LlY_3QxFNMZcRUNFJ1fNhG-GPDiMKQE5/view?usp=drive_link" className="text-[#8c52ff]">Resume
           <PiReadCvLogo className="hover:text-[#8c52ff] w-[2.75rem] sm:w-[2.75rem] size-5 sm:size-7 text-white hover:scale-125 ease-in-out duration-100 absolute border-black rounded-2xl cursor-pointer" />
-          
         </a>
       </div>
     </nav>
